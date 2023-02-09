@@ -1,0 +1,29 @@
+{
+  "name": "allowance-api",
+  "version": "1.0.0",
+  "description": "APIs to fetch and update ERC20 token allowances",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akhemraj/allowance-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akhemraj/allowance-api/issues"
+  },
+  "homepage": "https://github.com/akhemraj/allowance-api#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.2",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

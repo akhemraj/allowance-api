@@ -1,2 +1,5 @@
 
 GET http://localhost:3000/api/allowances/0xB89655D499A6EbD9a33C159697EFDa91d7A10433
+
+###
+POST http://localhost:3000/api/allowances/update/0xB89655D499A6EbD9a33C159697EFDa91d7A10433
